@@ -1,0 +1,162 @@
+    .div-loja{display: inline-block;direction: column;width: 100%;}
+	.div-nome{display: inline-block;direction: column;width: 80%;}
+	.div-cnpj{display: inline-block;direction: column;width: 100%;}
+	.div-tel{display: inline-block;direction: column;width: 100%;}
+	.div-end{display: inline-block;direction: column;width: 100%;}
+	.div-cep{display: inline-block;direction: column;width: 100%}
+	
+	.div-select{
+		width: 100%;
+		font-size: 18px;
+		font-weight: bold;
+	}
+	.modal {
+	  position: fixed;
+	  top: 0;
+	  right: 0;
+	  bottom: 0;
+	  left: 0;
+	  width: 99%;
+	  height: 550px;
+	  margin: 15% 1px;
+	  border:solid lightgray 1px;
+	  font-family: Arial, Helvetica, sans-serif;
+	  background: seashell;/*rgba(0,0,0,0.8);*/
+	  z-index: 2;
+	  opacity:0;
+	  -webkit-transition: opacity 400ms ease-in;
+	  -moz-transition: opacity 400ms ease-in;
+	  transition: opacity 400ms ease-in;
+	  pointer-events: none;
+	}
+	.conteudo-modal{
+		display: inline-block;
+		direction: column;
+		padding: 20px 10px;
+		width: 99%;
+		height: 90%;
+		font-size: 12px;
+		font-weight: normal;
+		overflow-y: scroll; 
+		max-height:85%;
+	}
+	input[type=text] {
+		width: 100%;
+		font-size: 16px;
+		font-family: poppins;	
+	}
+	.titulo{
+		margin:5px 0;
+		width: 100%;
+		height: 30px;
+		text-align: center;
+		font-size: 20px;
+		color:white;
+		padding: 2px;
+		font-family:Poppins;
+		background-color: #003300;
+	}
+	.container{
+		display: inline-block;
+		direction: column;
+		width: 99%;
+		background-color:white;
+		padding: 10px;
+		margin:  5px;
+		font-size: 18px;
+		font-family: poppins;	
+		color:#001a00;
+		font-weight: bold;
+	}
+	.botao_salvar{
+		padding: 10px 0;
+		color: white;
+	}
+	.btn-listar{
+		display: inline-block;
+		direction: column;
+		background-color:none;
+		width: 100%;
+	}
+	.btn-editar{
+		width: 20%;
+		background-color: #008B8B;
+		border-radius: 8px;
+		height: 30px;
+		color: lightgray;
+		margin-left: 5px;
+	}
+	.botao_enviar{
+		display: inline-block;
+		direction: column;
+		width: 200px;
+		font-size: 18px;
+		padding: 10px;
+	}
+	.button{
+		width: 100%;
+		height: 40px;
+		font-family: poppins;
+		font-size: 20px;
+		background-color: #008B8B;
+		border-radius: 8px;
+		color: white;
+	}
+@media screen and (min-width: 1250px){
+	.div-loja{display: inline-block;direction: column;width: 20px;}
+	.div-nome{display: inline-block;direction: column;width: 350px;}
+	.div-cnpj{display: inline-block;direction: column;width: 120px;}
+	.div-tel{display: inline-block;direction: column;width: 250px;}
+	.div-end{display: inline-block;direction: column;width: 370px;}
+	.div-cep{display: inline-block;direction: column;width: 70px;}
+	.titulo{
+		width: 99%;
+		margin: 0 5px;
+		padding: 2px 10px;
+		letter-spacing: 10px;
+		font-size: 130%;
+	}
+	.button{
+		width: 10%;
+		height: 40px;
+		background-color: #008B8B;
+		color: white
+	}
+	.btn-editar{
+		width: 70px;
+		background-color: #008B8B;
+		padding: 0 ;
+		height: 30px;
+		margin: 2px;
+		/*border-radius: 8px;*/
+	}
+	.modal{
+		margin: 100px 5px;
+	}
+	.conteudo-modal{
+		display: inline-block;
+		direction: column;
+		padding: 10px;
+		width: 99%;
+		height: 90%;
+		font-size: 12px;
+		font-weight: normal;
+		overflow-y: scroll; 
+		max-height:85%;
+	}
+	.btn-listar{
+		display: inline-block;
+		direction: column;
+		background-color: none;
+		margin: -60px 300px;
+		height: 52px;
+		
+	}
+	.botao_enviar{
+		display: inline-block;
+		direction: column;
+		width: 200px;
+		font-size: 18px;
+		padding: 10px;
+	}
+}
